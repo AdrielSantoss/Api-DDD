@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "AutoMapper/10.1.0": {
+      "AutoMapper/10.1.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -1714,14 +1714,14 @@
     }
   },
   "libraries": {
-    "AutoMapper/10.1.0": {
-      "sha512": "qxn9+PpQJD53PAUHGXW3HTcq6Rxbv3Pyq/jTcc60ZYwOygyqUfHIY3HBChKbDwtTHdlwlQqJeJ1ckVcaoytxxw==",
+    "AutoMapper/10.1.1": {
+      "sha512": "uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
       "type": "package",
-      "path": "automapper/10.1.0",
+      "path": "automapper/10.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "automapper.10.1.0.nupkg.sha512",
+        "automapper.10.1.1.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
         "lib/net461/AutoMapper.dll",
@@ -6170,6 +6170,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.0",
       "Data >= 1.0.0",
       "Domain >= 1.0.0",
@@ -6177,25 +6178,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\asantos\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.CrossCutting\\CrossCutting.csproj",
+      "projectUniqueName": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.CrossCutting\\CrossCutting.csproj",
       "projectName": "CrossCutting",
-      "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.CrossCutting\\CrossCutting.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.CrossCutting\\obj\\",
+      "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.CrossCutting\\CrossCutting.csproj",
+      "packagesPath": "C:\\Users\\asantos\\.nuget\\packages\\",
+      "outputPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -6203,14 +6212,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj"
+            "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj": {
+              "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj"
+            "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Service\\Service.csproj"
+            "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Service\\Service.csproj": {
+              "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Service\\Service.csproj"
             }
           }
         }
@@ -6225,6 +6234,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[10.1.1, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.0, )"

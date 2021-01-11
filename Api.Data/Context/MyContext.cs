@@ -18,8 +18,19 @@ namespace Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<UserEntity>(new UserMap().Configure); //quando criar o modelo, o mapeamento/configurações será realizado
 
+            modelBuilder.Entity<UserEntity>().HasData(
+                new UserEntity
+                {
+                    id = Guid.NewGuid(),
+                    Name = "Administrador",
+                    Email = "admin@gmail.com",
+                    CreateAt = DateTime.Now,
+                    UpdateAt = DateTime.Now
+                });
+
+            modelBuilder.Entity<UserEntity>(new UserMap().Configure); //quando criar o modelo, o mapeamento/configurações será realizado
+        
         }
     }
 }

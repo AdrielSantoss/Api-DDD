@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vqzciXiB2ogavj50EeVKLKx3P1bY959n0/r70I+dVt/KNqxUjDP4dH2/GKuD2MTRYLo1K8rMb2sQwaxj2VScBA==",
+  "dgSpecHash": "80EYKg38O+mBgL1NvV8EWwZm9EgInjhibU55SnSjjPUI5yZrKDI7LwNH0ittWF9JcFsYn6ArzFEH1qA/Ahq+lQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

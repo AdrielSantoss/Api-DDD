@@ -13,11 +13,11 @@ namespace Data.Context
         public MyContext CreateDbContext(string[] args)
         {
             //Usado para criar as migrations
-            //var connectionString = "Data Source=api.db"; sqlite
-            var connectionString = "Server=.\\SQLEXPRESS2017;Initial Catalog=dbapi;MultipleActiveResultSets=true;User ID=sa;Password=123";
+           var connectionString = "Data Source=./api.db";
+           // var connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=api;Integrated Security=SSPI"; 
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
             //optionsBuilder.UseSqlite(connectionString);
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseSqlite(connectionString);
             return new MyContext(optionsBuilder.Options);
         }
     }

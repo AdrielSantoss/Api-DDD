@@ -10,3 +10,15 @@ C:\Users\PC\Desktop\Treinos\DDD-Api\Api.Domain\obj\Debug\net5.0\Domain.csproj.Co
 C:\Users\PC\Desktop\Treinos\DDD-Api\Api.Domain\obj\Debug\net5.0\Domain.dll
 C:\Users\PC\Desktop\Treinos\DDD-Api\Api.Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\Users\PC\Desktop\Treinos\DDD-Api\Api.Domain\obj\Debug\net5.0\Domain.pdb
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\bin\Debug\net5.0\Domain.dll
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\bin\Debug\net5.0\Domain.pdb
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\obj\Debug\net5.0\Domain.dll
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Asantos\Prototipos\Api-DDD\Api.Domain\obj\Debug\net5.0\Domain.pdb

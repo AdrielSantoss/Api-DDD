@@ -45,7 +45,7 @@ namespace application.Controllers
             {
                 return Ok(await service.Get(id));
             }
-            catch (Exception e)
+            catch (ArgumentException e)
             {
 
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
@@ -76,12 +76,46 @@ namespace application.Controllers
                 }
 
             }
-            catch (Exception e)
+            catch (ArgumentException e)
             {
 
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
+        }
 
+        [HttpPut("{id")]
+        public async Task<IActionResult> Put([FromServices] IUserService service, UserEntity user)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); //400 - soliciatação inválida <- releembrando
+            }
+            try
+            {
+                var result = await service.Put(user);
+                return Ok(result);
+            }
+            catch (ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
+       [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id, [FromServices] IUserService service)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); //400 - soliciatação inválida <- releembrando
+            }
+            try
+            {
+                return Ok(await service.Delete(id));
+            }
+            catch (ArgumentException e)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+            }
         }
     }
 }

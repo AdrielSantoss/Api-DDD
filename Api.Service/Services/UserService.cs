@@ -25,7 +25,7 @@ namespace Service.Services
         public async Task<UserEntity> Get(Guid id)
         {
             return await _repository.SelectAsync(id);
-        }
+        } //
 
         public async Task<IEnumerable<UserEntity>> GetAll()
         {

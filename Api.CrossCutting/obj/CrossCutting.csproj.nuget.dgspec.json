@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "C:\\Asantos\\Prototipos\\Api-DDD\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Asantos\\Prototipos\\Api-DDD\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.CrossCutting\\obj\\",
+        "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\asantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -28,14 +35,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj"
+              "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj"
+              "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Service\\Service.csproj"
+              "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -50,6 +57,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.0, )"
@@ -74,23 +85,30 @@
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj": {
+    "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\obj\\",
+        "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\asantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -98,8 +116,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj"
+              "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -154,23 +172,30 @@
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj": {
+    "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\obj\\",
+        "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\asantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -208,23 +233,30 @@
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Service\\Service.csproj": {
+    "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Service\\obj\\",
+        "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\asantos\\.nuget\\packages\\",
+        "outputPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -232,11 +264,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Data\\Data.csproj"
+              "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\Treinos\\DDD-Api\\Api.Domain\\Domain.csproj"
+              "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Asantos\\Prototipos\\Api-DDD\\Api.Domain\\Domain.csproj"
               }
             }
           }

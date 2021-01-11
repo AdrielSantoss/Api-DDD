@@ -22,8 +22,8 @@ namespace CrossCutting.DependencyInjection
             //Mesma coisa dos services, quando IRepository for inicializado será feito uma instancia da classe BaseRepository
 
             serviceCollection.AddDbContext<MyContext>(
-            //options => options.UseSqlite("Data Source=api.db")
-            options => options.UseSqlServer("Server=.\\SQLEXPRESS2017;Initial Catalog=dbapi;MultipleActiveResultSets=true;User ID=sa;Password=123")
+            options => options.UseSqlite("Data Source=api.db")
+            //options => options.UseSqlServer(@"Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=api;Integrated Security=SSPI") 
 
             );
 
